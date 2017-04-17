@@ -1,7 +1,6 @@
-'use strict';
 import React from 'react';
 
-class Header extends React.Compoent {
+class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-light">

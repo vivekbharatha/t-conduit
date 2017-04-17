@@ -1,9 +1,6 @@
-'use strict';
 import Header from './Header';
-import Home from './Home';
+import Home from './Home/Home';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import {connect} from 'react-redux';
 
 const mapStateToProps = state => ({appName: state.appName});
