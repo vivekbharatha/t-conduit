@@ -4,7 +4,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import agent from '../agent';
 
-const Promise = global.Promise;
+// const Promise = global.Promise;
 
 const mapStateToProps = state => ({
   appName: state.appName
