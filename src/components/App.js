@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div >
-        <Header appName={this.props.appName} /> {/*asdsa*/}
+        <Header appName={this.props.appName} /> {/*common header*/}
         {this.props.children}
       </div>
     );
