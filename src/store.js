@@ -11,7 +11,6 @@ const reducer = function (state=defaultState, action) {
     case 'HOME_PAGE_LOADED':
       if (action.error) return state;
       return {...state, articles: action.payload.articles};
-      break;
     default:
       return state;
   }
